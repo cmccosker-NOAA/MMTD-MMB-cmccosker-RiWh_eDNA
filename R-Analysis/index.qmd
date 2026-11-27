@@ -8,4 +8,8 @@ To learn more about Quarto books visit <https://quarto.org/docs/books>.
 1 + 1
 ```
 
-hey
+## Update renv lock file
+```{r}
+renv::snapshot()
+```
+
