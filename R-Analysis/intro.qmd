@@ -1,6 +1,11 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
 # eDNA Samples
 
 ## Libraries
-```{r}
+```{r, message = FALSE}
 library(tidyverse)
 ```
